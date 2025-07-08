@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Preserve formatting in email preview */
+.email-preview {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.email-preview p {
+  margin-bottom: 1em;
+}
+
+.email-preview br {
+  display: block;
+  margin: 0.5em 0;
+  content: "";
+}
+
+.email-preview strong {
+  font-weight: bold;
+}
+
+.email-preview em {
+  font-style: italic;
+}
